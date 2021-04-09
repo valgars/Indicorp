@@ -525,4 +525,40 @@ p,h1,h2,span,body {
     line-height: 28px;
 }
 /*-------------Contact-------------*/
+/*-------------Footer-------------*/
+.footer {
+    background: #16697A;
+}
+.footer__inner {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__inner_item {
+    display: flex;
+    flex-direction: column;
 
+}
+.footer_h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px ;
+}
+.footer_link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.footer_info {
+    display: flex;
+}
+.footer_img1 {
+    margin-right: 10px;
+}
